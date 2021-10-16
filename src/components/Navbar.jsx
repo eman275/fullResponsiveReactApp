@@ -26,10 +26,10 @@ const Logo = styled.h1`
 const Menu = styled.ul`
   display: flex;
   list-style: none;
+
   @media only screen and (max-width: 480px) {
     display: none;
   }
-
 `;
 
 const MenuItem = styled.li`
@@ -63,7 +63,7 @@ const Navbar = () => {
             <MenuItem>Contact</MenuItem>
           </Menu>
         </Left>
-        <Button>JOIN </Button>
+        <Button>JOIN TODAY</Button>
       </Wrapper>
     </Container>
   );
